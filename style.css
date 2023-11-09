@@ -129,19 +129,70 @@ background-color: white;
     display: flex;
     flex-direction: column;
 }
+
+.p2svg1{
+
+    width: 2em;
+    margin-left: 7%;
+    margin-top: 10%;
+    fill:#32df8f ;
+}
+.p2svg2{
+    width: 2em;
+    margin-left: 7%;
+    margin-top: 10%;
+    fill:#00b8e0 ;
+}
+.p2svg3{
+    width: 2em;
+    margin-left: 7%;
+    margin-top: 10%;
+    fill:#e48b78 ;
+}
+.page2halfp1{
+    margin-left: 7%;
+    margin-top: 10%;
+    height: 25px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.page2halfp2{
+    margin-left: 7%;
+    margin-top: 0%;
+    height: 10px;
+    margin-right: 10%;
+    font-size: 10px;
+}
 .page2half2{
     display: flex;
     width: 100%;
     height:60%;
-    background-color: wheat;
+    background-image: url(worldmap.png);
     flex-wrap: wrap;
+    fill: 005853;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
-.p2svg1{
-    fill:#32df8f ;
+.page2half2textupper{
+    width: 100%;
+    height: auto;
 }
-.p2svg2{
-    fill:#00b8e0 ;
+.page2half2textupper1{
+    text-align: center;
+    width: 30%;
+    height: auto;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 35%;
+    margin-right: 35%;
 }
-.p2svg3{
-    fill:#e48b78 ;
+.page2half2textupper2{
+    text-align: center;
+    width: 30%;
+    height: auto;
+    font-size: 15px;
+    margin-left: 35%;
+    margin-right: 35%;
+
 }
