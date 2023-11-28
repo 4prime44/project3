@@ -261,6 +261,106 @@ margin-bottom: 0%;
     margin-left: 5%;
     margin-right: 5%;
 }
+
+
+/*
+page3
+///
+//
+*/
+
+.page3{
+    display: block;
+    width: auto;
+    height: fit-content;
+    overflow: hidden;
+    padding-bottom: 2%;
+}
+.page3 .title{
+display:flex ;
+width: 100%;
+justify-content: center;
+font-weight: bold;
+font-size: 2vw;
+height: 2vw;
+line-height: 2vw;
+}
+.page3 .center img{
+height:32vw;
+width: 35vw;
+}
+.page3 .center{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height:32vw;
+}
+.page3 .center .belts{
+    margin-right: 12%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.page3 .center .belts section {
+    height: 8vw;
+    width: 35vw;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgb(179, 179, 179);
+    background-color: white;
+}
+.page3 .center .belts img{
+    margin: 0;
+    padding: 0;
+    height: 8vw;
+    width: 10vw;
+}
+.page3 .center .belts #png1{
+    margin-left: -0.4%;
+    margin-top: 0.7%;
+    height: 8.3vw;
+    width: 10.2vw;
+}
+.page3 .center .belts section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.3vw;
+}
+
+.page3 .center .belts button{
+    margin-right: 5%;
+    background: none;
+    border: none;
+}
+.vanish{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width:1200px) {
     
 }
@@ -326,12 +426,22 @@ margin-bottom: 0%;
  
 
             }
-}
-@media (max-width:768px) {
+            .p2svg1{
+
+                width: 1.5em;
+            }
+            .p2svg2{
+                width: 1.5em;
+            }
+            .p2svg3{
+                width: 1.5em;
+            }
+
+
     .page2half2box1{
         width: 24%;
         height: 125px;
 
 
         } 
-}
+    }
