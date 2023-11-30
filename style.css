@@ -53,7 +53,7 @@ body{
     margin-top: 0%;
 }
 .navbar1 li{
-    font-size: 2.5vw;
+    font-size: 30px;
     float: left;
     display: block;
     text-align: center;
@@ -62,14 +62,11 @@ body{
 
 }
 .page1title{
-    margin-top: 5%;
     color: white;
     width: 60%;
     height: auto;
-    font-size:5vw;
+    font-size:80px;
     display: flex;
-    margin-left: 20%;
-    margin-right: 20%;
     justify-content: center;
    text-align: center;
    margin-bottom:5%;
@@ -79,26 +76,20 @@ body{
     color: white;
     width: 50%;
     height: auto;
-    font-size: 1.5vw;
+    font-size: 20px;
     display: flex;
-    margin-left: 25%;
-    margin-right: 25%;
    text-align: center;
    font-family:'Courier New', Courier, monospace;
    margin-bottom: 9%;
 }
-.page1buttondiv{
-    display: flex;
-    width: 100%;
-    height:8%;
-    justify-content: center;
-}
+
 .page1button{
     background-color:rgb(0, 166, 81);
     border: 1px rgb(0, 166, 81);
     border-radius: 25px;
-    width:max-content;
-    padding: 15px;
+    width:auto;
+    padding:20px;
+    height: auto;
     color: white;
     font-size: 20px;
 }
@@ -107,7 +98,7 @@ body{
     display: block;
     background-color: white;
     width: 100%;
-    height: 100vh;
+
 
 }
 .page2half1{
@@ -115,6 +106,7 @@ body{
     display: flex;
     width: 100%;
     height: 38%;
+    margin-bottom: 30px;
     background-color: white;
     flex-wrap: wrap;
 
@@ -137,7 +129,7 @@ body{
     justify-content: space-between;
     flex-direction: row;
     width: 100%;
-    height: 80%;
+    height: auto;
 }
 .page2half1box section{
 background-color: white;
@@ -150,48 +142,48 @@ background-color: white;
 }
 
 .p2svg1{
-
-    width: 2em;
+    width: 5em;
+    height: 7em;
     margin-left: 7%;
     margin-top: 8%;
     fill:#32df8f ;
 }
 .p2svg2{
-    width: 2em;
+    width: 5em;
+    height: 7em;
     margin-left: 7%;
     margin-top: 8%;
     fill:#00b8e0 ;
 }
 .p2svg3{
-    width: 2em;
-    margin-left: 7%;
-    margin-top:8%;
+    width: 5em;
+    height: 7em;
+    margin-left: 3%;
+    margin-top:5%;
     fill:#e48b78 ;
 }
 .page2halfp1{
-    margin-left: 7%;
-    margin-top: 4%;
-    height: 25px;
+margin: 4% 0% 8% 7%;
     font-size:1.5vw;
     font-weight: bold;
 }
 .page2halfp2{
     margin-left: 7%;
     margin-top: -2%;
-    height: 10px;
+
     margin-right: 10%;
-    font-size: 1vw;
 }
 .page2half2{
     display: flex;
     width: 100%;
-    height:60%;
+    height:auto;
     background-image: url(worldmap.png);
     flex-wrap: wrap;
     fill: 005853;
     background-repeat: no-repeat;
-    background-size: cover;
+
     background-position: center;
+    background-size: contain;
 }
 .page2half2textupper{
 
@@ -362,7 +354,27 @@ width: 35vw;
 
 
 @media (max-width:1200px) {
-    
+    .page1title{
+        font-size:70px;
+}
+    .page1undertitle{
+        font-size: 15px;
+    }
+    .page2halfp2{
+        font-size: 12px;
+    }
+    .p2svg1{
+        width: 3em;
+        height: 4em;
+    }
+    .p2svg2{
+        width: 3em;
+        height: 4em;
+    }
+    .p2svg3{
+        width: 2em;
+        height: 3em;
+    }
 }
 @media (max-width:992px) {
     .page1title{
@@ -375,12 +387,16 @@ width: 35vw;
         font-size: 20px;
     }
     .page1title{
-        font-size: 40px;
+        font-size: 30px;
     }  
     .page1undertitle{
         font-size: 10px;
         margin-bottom: 15%;
     } 
+    .page1button{
+        font-size: 18px;
+        padding: 10px;
+    }
     .navbar1 li{
         font-size: 15px;
     }
