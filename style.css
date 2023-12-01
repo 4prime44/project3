@@ -413,10 +413,12 @@ width: 35vw;
     }
     .page1title{
         font-size: 30px;
+        margin-bottom:20px; 
+        width: 60%;
     }  
     .page1undertitle{
         font-size: 10px;
-        margin-bottom: 15%;
+        margin-bottom: 10%;
     } 
     .page1button{
         font-size: 18px;
