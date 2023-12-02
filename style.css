@@ -255,7 +255,7 @@ font-weight: bold;
 margin-bottom: 0%;
 }
 .p2h2b1p2{
-    font-size: 30px;
+    font-size: 28px;
     margin-top: 8%;
     margin-left: 5%;
     margin-right: 5%;
@@ -274,6 +274,7 @@ page3
     height: fit-content;
     overflow: hidden;
     padding-bottom: 2%;
+    margin-bottom: 10%;
 }
 .page3 .title{
 display:flex ;
@@ -337,6 +338,108 @@ width: 35vw;
 .vanish{
     display: none;
 }
+
+.page4{
+    width: 100%;
+    height: fit-content;
+    overflow: hidden;
+    padding-bottom: 2%;
+    margin-bottom: 5%;
+    background-color: #ECF1F0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.page4 .title{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    font-weight: bold;
+}
+.page4 .boxx{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin:2% 9.5% 0% 9.5%;
+    width: 80%;
+    height: auto;
+}
+.page4 .boxx section{
+    border: 1px transparent solid;
+    width: 140px;
+    text-align: center;
+    height:22px;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: #666666;
+    color: white;
+    font-size: 20px;
+    line-height: 22px;
+}
+.page4 .boxx .bx1{
+    background-color: #00A651;
+}
+.page4 .boxxx{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin:5% 9.5% 0% 9.5%;
+    width: 80%;
+    height: auto;
+}
+.page4 .boxxx section{
+    height: 340px;
+    width: 299px;
+    border: 1px transparent solid;
+    border-radius: 25px;
+    background-color: white;
+}
+.page4 .boxxx img{
+    width: 300px;
+    height: 220px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    margin-bottom: 0% ;
+}
+.page4 .boxxx section p{
+    margin: 3% 5% 0% 5%;
+}
+.page4 .boxxx section .j{
+    font-size: 12px;
+}
+.page4 .boxxx section .n{
+    font-size: 12px;
+}
+.page4 .boxxx section .space{
+    display: flex;
+    justify-content: space-between;
+}
+.page4 button{
+    background-color:rgb(0, 166, 81);
+    border: 1px rgb(0, 166, 81);
+    border-radius: 10px;
+    width:auto;
+    padding:15px;
+    height: auto;
+    color: white;
+    font-size: 18px;
+    margin: 2% 0% 2% 0%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -406,6 +509,9 @@ width: 35vw;
         margin-top: -5%;
         font-size: 50px;
     }  
+    .p2h2b1p2{
+        font-size: 20px;
+    }
 }
 @media (max-width:768px) {
     .page2half1title{
