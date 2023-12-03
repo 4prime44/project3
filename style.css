@@ -344,7 +344,7 @@ width: 35vw;
     height: fit-content;
     overflow: hidden;
     padding-bottom: 2%;
-    margin-bottom: 5%;
+    margin-bottom: 2%;
     background-color: #ECF1F0;
     display: flex;
     justify-content: center;
@@ -428,10 +428,63 @@ width: 35vw;
     margin: 2% 0% 2% 0%;
 
 }
-
-
-
-
+.page5{
+    width: 100vw;
+    height: fit-content;
+    overflow: hidden;
+    padding-bottom: 2%;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.page5 .maintitle{
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 0%;
+}
+.page5 .maintitle{
+    font-size: 30px;
+}
+.page5 .mainbox{
+    margin-top: 2%;
+    width: 80%;
+    margin-left: 8%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.page5 .mainbox .leftboxx section{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    margin-top: 65px;
+    margin-bottom:35px;
+}
+.page5 .mainbox .leftboxx section img{
+width: 75px;
+height: 75px;
+}
+.page5 .mainbox .leftboxx section p{
+    color: #5E6282;
+    margin: 0% 0% 2% 5%;
+}
+.page5 .mainbox .leftboxx section p:first-child{
+    font-size: 15px;
+    font-weight: bold;
+}
+.page5 .mainbox .leftboxx section .together{
+    display: flex;
+    flex-direction: column;
+}
+.page5 .mainbox .rightboxx img{
+    display: flex;
+    margin-top: -155px;
+    margin-left: -55px;
+    width:650px ;
+    height:760px ;
+}
 
 
 
