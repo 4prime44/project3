@@ -271,10 +271,10 @@ page3
 .page3{
     display: block;
     width: auto;
-    height: fit-content;
+    height: auto;
     overflow: hidden;
-    padding-bottom: 2%;
-    margin-bottom: 10%;
+    padding-bottom: 10px;
+    margin-bottom:0%;
 }
 .page3 .title{
 display:flex ;
@@ -286,25 +286,28 @@ height: 2vw;
 line-height: 2vw;
 }
 .page3 .center img{
-height:32vw;
-width: 35vw;
+height:550px;
+width: 580px;
 }
 .page3 .center{
     margin-top: 5%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    height:32vw;
+    height:auto;
 }
 .page3 .center .belts{
-    margin-right: 12%;
     display: flex;
-    justify-content: space-between;
+width: 100%;
+justify-content: center;
+align-items: center;
+    margin-right: 5%;
+    display: flex;
     flex-direction: column;
 }
 .page3 .center .belts section {
-    height: 8vw;
-    width: 35vw;
+    height: 100px;
+    width: 550px;
+    margin-bottom: 50px;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgb(179, 179, 179);
     background-color: white;
@@ -312,14 +315,14 @@ width: 35vw;
 .page3 .center .belts img{
     margin: 0;
     padding: 0;
-    height: 8vw;
-    width: 10vw;
+    height: 100px;
+    width: 130px;
 }
 .page3 .center .belts #png1{
     margin-left: -0.4%;
     margin-top: 0.7%;
-    height: 8.3vw;
-    width: 10.2vw;
+    height: 104px;
+    width: 132px;
 }
 .page3 .center .belts section{
     display: flex;
@@ -327,17 +330,17 @@ width: 35vw;
     justify-content: space-between;
     align-items: center;
     font-weight: bold;
-    font-size: 1.3vw;
+    font-size: 18px;
 }
 
 .page3 .center .belts button{
+    font-size: 18px;
+    margin-top: 1%;
     margin-right: 5%;
     background: none;
     border: none;
 }
-.vanish{
-    display: none;
-}
+
 
 .page4{
     width: 100%;
@@ -556,6 +559,10 @@ height: 75px;
         margin-left: 20%;
         margin-right: 20%;
     }
+    .page3 .center img{
+        height:350px;
+        width: 380px;
+        }
 }
 @media (max-width:992px) {
     .page1title{
@@ -635,5 +642,43 @@ height: 75px;
         } 
         .page2half2box1 svg{
             height: 1.8em;
+        }
+        .vanish{
+            display: none;
+        }
+        .page3 .center .belts{
+            width: 100%;
+            margin-right:0%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: column;
+        }
+        .page3 .center .belts section {
+            height: 8vw;
+            width: 35vw;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgb(179, 179, 179);
+            background-color: white;
+        }
+        .page3 .center .belts img{
+            margin: 0;
+            padding: 0;
+            height: 8vw;
+            width: 10vw;
+        }
+        .page3 .center .belts #png1{
+            margin-left: -0.4%;
+            margin-top: 0.7%;
+            height: 8.3vw;
+            width: 10.2vw;
+        }
+        .page3 .center .belts section{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            font-weight: bold;
+            font-size: 12px;
         }
     }
