@@ -4,11 +4,17 @@ body{
     margin:0%;
     overflow-x: hidden;
     box-sizing: border-box;
-    width: 100%;
     font-family:'Open Sans', sans-serif;
     font-weight: 400;
-    
+
 }
+/*.center1{
+    display: flex;
+    flex-direction: column;
+    max-width: 1600px;
+    justify-content: center;
+    align-items: center;
+}*/
 .page1{
     display: block;
     background-image: url(p11.jpg);
@@ -281,9 +287,7 @@ display:flex ;
 width: 100%;
 justify-content: center;
 font-weight: bold;
-font-size: 2vw;
-height: 2vw;
-line-height: 2vw;
+font-size: 50px;
 }
 .page3 .center img{
 height:550px;
@@ -559,10 +563,16 @@ height: 75px;
         margin-left: 20%;
         margin-right: 20%;
     }
-    .page3 .center img{
-        height:350px;
-        width: 380px;
+    .page3 .title{
+        font-size: 45px;
+    }
+    .page3 .center .vanish{
+        display: none;
         }
+     .page3 .center .belts{
+      width: 100%;
+      margin: 0%;
+     }
 }
 @media (max-width:992px) {
     .page1title{
@@ -643,42 +653,17 @@ height: 75px;
         .page2half2box1 svg{
             height: 1.8em;
         }
-        .vanish{
-            display: none;
+        .page3 .title{
+            font-size: 25px;
         }
         .page3 .center .belts{
-            width: 100%;
-            margin-right:0%;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            flex-direction: column;
+            margin: 0%;
+        width: 100%;
         }
-        .page3 .center .belts section {
-            height: 8vw;
-            width: 35vw;
-            border-radius: 10px;
-            box-shadow: 0px 0px 10px rgb(179, 179, 179);
-            background-color: white;
-        }
-        .page3 .center .belts img{
-            margin: 0;
-            padding: 0;
-            height: 8vw;
-            width: 10vw;
-        }
-        .page3 .center .belts #png1{
-            margin-left: -0.4%;
-            margin-top: 0.7%;
-            height: 8.3vw;
-            width: 10.2vw;
-        }
+
         .page3 .center .belts section{
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            align-items: center;
-            font-weight: bold;
-            font-size: 12px;
+            width: 315px;
+            font-size: small;
+            margin-bottom: 10%;
         }
     }
