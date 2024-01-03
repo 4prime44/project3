@@ -358,6 +358,14 @@ align-items: center;
     align-items: center;
     flex-direction: column;
 }
+.page4 .inside{
+    width: 100%;
+    max-width: 1600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
 .page4 .title{
     width: auto;
     display: flex;
@@ -573,6 +581,9 @@ height: 75px;
       width: 100%;
       margin: 0%;
      }
+     .page4 .boxxx  :last-child{
+        display: none;
+     }
 }
 @media (max-width:992px) {
     .page1title{
@@ -666,4 +677,10 @@ height: 75px;
             font-size: small;
             margin-bottom: 10%;
         }
+        .page4 .boxxx :nth-child(2) {
+            display: none;
+         }
+         .page4 .boxxx{
+            width: auto;
+         }
     }
