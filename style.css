@@ -396,6 +396,9 @@ align-items: center;
 .page4 .boxx .bx1{
     background-color: #00A651;
 }
+.page4 .burgn{
+    display: none;
+}
 .page4 .boxxx{
     display: flex;
     justify-content: space-between;
@@ -683,4 +686,17 @@ height: 75px;
          .page4 .boxxx{
             width: auto;
          }
-    }
+         .page4 .boxx section{
+            display: none;
+         }
+         .page4 .burgn{
+            display: flex;
+            flex-direction: column;
+        }
+        .page4 .burgn li{
+            display: none;
+        }
+        .page4 .burgn:hover li{
+            display: flex;
+        }
+    }       
